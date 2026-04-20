@@ -35,29 +35,32 @@ A simple and intuitive **Task Management System** built with **React.js** that a
 
 ## 📂 Project Structure
 
-task-management
+```
+
+task-management/
+├── index.html
+├── package.json
+├── postcss.config.js
 ├── public/
 │ └── logo.png
 ├── src/
+│ ├── App.jsx
 │ ├── component/
-│ │ ├── task/
-│ │ │ ├── NewTask.tsx
-│ │ │ └── Task.tsx
 │ │ ├── Button.tsx
 │ │ ├── Input.tsx
 │ │ ├── Modal.tsx
 │ │ ├── NewProject.tsx
 │ │ ├── NoProject.tsx
 │ │ ├── ProjectDetail.tsx
-│ │ └── SideBar.tsx
-│ ├── App.jsx
+│ │ ├── SideBar.tsx
+│ │ └── task/
+│ │ ├── NewTask.tsx
+│ │ └── Task.tsx
 │ ├── index.css
 │ └── main.jsx
-├── index.html
-├── package.json
-├── postcss.config.js
 ├── tailwind.config.js
 └── vite.config.js
+```
 
 ## ⚙️ Installation & Setup
 
